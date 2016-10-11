@@ -1,3 +1,80 @@
+body *::selection {
+  background: yellow; /* WebKit/Blink Browsers */
+}
+
+/***************/
+/*   HEADER   */
+/*************/
+
 header {
   text-align: center;
 }
+
+
+
+/***************/
+/* NAVIGATION */
+/*************/
+
+nav {
+    background-color: #f2f2f2;
+    padding: 2em 0;
+}
+
+nav ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav img {
+  height: 5em;
+}
+
+
+/**************/
+/*   HERO    */
+/************/
+
+#hero {
+  background-image: url('../assets/imgs/coffee_brawny.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .wrapper {
+  padding: 3em;
+}
+
+#history {
+  background:rgba(239, 241,244,0.45); 
+  border-radius: 1em;
+}
+
+
+
+/**************/
+/*   HERO    */
+/************/
+footer {
+  padding-top: 2em;
+}
+
+footer ul {
+  text-decoration: none;
+}
+
+#socialMedia li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+
+
+#coffeeSelection h3 {
+  text-align: center;
+}
+
