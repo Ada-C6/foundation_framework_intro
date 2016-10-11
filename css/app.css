@@ -80,6 +80,16 @@ nav img {
 }
 
 /**************/
+/* DONT BE A */
+/* STRANGER! */
+/************/
+
+#stranger {
+  background-color: #f2f2f2;
+
+}
+
+/**************/
 /*  FOOTER   */
 /************/
 footer {
@@ -96,3 +106,8 @@ footer ul {
 }
 
 
+
+@media only screen and (max-width: 40em) { /* small */
+  /* Note: img will still be loaded, but not shown */
+  #stranger img{ display: none; }
+}
