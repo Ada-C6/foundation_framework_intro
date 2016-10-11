@@ -1,6 +1,11 @@
+/***************/
+/*    BODY    */
+/*************/
+
 body *::selection {
-  background: yellow; /* WebKit/Blink Browsers */
+  background: yellow; 
 }
+
 
 /***************/
 /*   HEADER   */
@@ -9,7 +14,6 @@ body *::selection {
 header {
   text-align: center;
 }
-
 
 
 /***************/
@@ -55,9 +59,28 @@ nav img {
 }
 
 
+/***************/
+/*   COFFEE   */
+/* SELECTION */
+/************/
+
+#coffeeSelection h3 {
+  text-align: center;
+}
+
+#coffeeSelection article{
+  margin-top: 2em;
+
+}
+
+.card {
+  margin: 1%;
+  padding: 1%;
+  background-color: yellow;
+}
 
 /**************/
-/*   HERO    */
+/*  FOOTER   */
 /************/
 footer {
   padding-top: 2em;
@@ -72,9 +95,4 @@ footer ul {
   padding-right: 1em;
 }
 
-
-
-#coffeeSelection h3 {
-  text-align: center;
-}
 
