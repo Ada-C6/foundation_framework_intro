@@ -47,7 +47,7 @@ nav img {
 /************/
 
 #hero {
-  background-image: url('../assets/imgs/coffee_brawny.jpeg');
+  background-image: url('coffee_brawny.jpeg');
   background-size: cover;
   background-position: center;
 }
