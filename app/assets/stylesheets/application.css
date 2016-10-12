@@ -1,15 +1,126 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+@import url('foundation.css');
+
+/***************/
+/*   GENERAL  */
+/*************/
+
+body *::selection {
+  background: yellow; 
+}
+
+
+/***************/
+/*   HEADER   */
+/*************/
+
+header {
+  text-align: center;
+}
+
+
+/***************/
+/* NAVIGATION */
+/*************/
+
+nav {
+    background-color: #f2f2f2;
+    padding: 2em 0;
+}
+
+nav ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav img {
+  height: 5em;
+}
+
+
+/**************/
+/*   HERO    */
+/************/
+
+#hero {
+  background-image: url('../assets/imgs/coffee_brawny.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+#hero .wrapper {
+  padding: 3em;
+}
+
+#history {
+  background:rgba(239, 241,244,0.45); 
+  border-radius: 1em;
+}
+
+
+/***************/
+/*   COFFEE   */
+/* SELECTION */
+/************/
+#coffeeSelection {
+  margin: 3em 0;
+}
+
+#coffeeSelection h3 {
+  text-align: center;
+}
+
+#coffeeSelection article{
+  margin-top: 2em;
+
+}
+
+.card {
+  margin: 1%;
+  padding: 1%;
+  background-color: #119fc2;
+  color: white;
+}
+
+/**************/
+/* DONT BE A */
+/* STRANGER! */
+/************/
+
+#stranger {
+  background-color: #f2f2f2;
+}
+
+#stranger h5 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 4.5em;
+  text-align: center;
+  margin: 1em 0;
+}
+
+/**************/
+/*  FOOTER   */
+/************/
+footer {
+  padding-top: 2em;
+}
+
+footer ul {
+  text-decoration: none;
+}
+
+#socialMedia li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+
+
+@media only screen and (max-width: 73em) {
+  /* Note: img will still be loaded, but not shown */
+  #stranger img{ display: none; }
+}
