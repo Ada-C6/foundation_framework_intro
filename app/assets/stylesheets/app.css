@@ -1,5 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+
 /***************/
-/*    BODY    */
+/*   GENERAL  */
 /*************/
 
 body *::selection {
@@ -63,6 +65,9 @@ nav img {
 /*   COFFEE   */
 /* SELECTION */
 /************/
+#coffeeSelection {
+  margin: 3em 0;
+}
 
 #coffeeSelection h3 {
   text-align: center;
@@ -76,7 +81,8 @@ nav img {
 .card {
   margin: 1%;
   padding: 1%;
-  background-color: yellow;
+  background-color: #119fc2;
+  color: white;
 }
 
 /**************/
@@ -86,7 +92,13 @@ nav img {
 
 #stranger {
   background-color: #f2f2f2;
+}
 
+#stranger h5 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 4.5em;
+  text-align: center;
+  margin: 1em 0;
 }
 
 /**************/
@@ -107,7 +119,7 @@ footer ul {
 
 
 
-@media only screen and (max-width: 40em) { /* small */
+@media only screen and (max-width: 73em) {
   /* Note: img will still be loaded, but not shown */
   #stranger img{ display: none; }
 }
